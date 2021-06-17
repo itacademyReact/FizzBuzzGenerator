@@ -1,6 +1,6 @@
 # FizzBuzz Generator
 This is a kata to practice TDD, BabySteps and Problem Description.
-
+-------------------
 The Fizz Buzz generator is a simple program, it’s method say generate accepts the numeric input and produces the output string based on the rules and input number.
 
 ### Rules
