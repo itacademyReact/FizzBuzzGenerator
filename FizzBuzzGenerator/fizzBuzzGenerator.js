@@ -1,7 +1,15 @@
+
+const isABuzzNumber = (num) => num % 5 === 0
+const isAFizzNumber = (num) => num % 3 === 0
+
 const fizzBuzzGenerator = (num) => {
-  if(num % 5 === 0 && num % 3 === 0) return 'fizzBuzz'
-  if(num % 5 === 0) return 'buzz'
-  if(num % 3 === 0) return 'fizz'
+
+  if(isABuzzNumber(num) && isAFizzNumber(num)) return 'fizzBuzz'
+
+  if(isABuzzNumber(num)) return 'buzz'
+
+  if(isAFizzNumber(num)) return 'fizz'
+  
   return num.toString()
 }
 
