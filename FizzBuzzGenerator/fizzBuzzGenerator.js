@@ -1,6 +1,6 @@
 const fizzBuzzGenerator = (num) => {
 
-  if(num === 6 || num === 3 || num === 9) return 'fizz'
+  if(num % 3 == 0) return 'fizz'
   return num.toString()
 }
 
