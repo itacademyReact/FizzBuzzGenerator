@@ -35,3 +35,15 @@ test('return 17 as string', () => {
   //Asert
   expect(resultExpect).toBe(numberAsString)
 });
+
+test('return fizz passed 3', () => {
+
+  //Arrange
+  const fizz = 'fizz'
+
+  //Act
+  const resultExpect = fizzBuzzGenerator(3)
+
+  //Asert
+  expect(resultExpect).toBe(fizz)
+});
