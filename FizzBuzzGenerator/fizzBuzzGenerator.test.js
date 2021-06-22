@@ -83,3 +83,15 @@ test('return buzz passed 5', () => {
   //Asert
   expect(resultExpect).toBe(buzz)
 });
+
+test('return fizzBuzz passed 15', () => {
+
+  //Arrange
+  const fizzBuzz = 'fizzBuzz'
+
+  //Act
+  const resultExpect = fizzBuzzGenerator(15)
+
+  //Asert
+  expect(resultExpect).toBe(fizzBuzz)
+});
