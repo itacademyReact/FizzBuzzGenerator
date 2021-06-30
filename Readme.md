@@ -2,14 +2,14 @@
 
 This is a kata to practice classic TDD, BabySteps and Problem Description and is available in Cyber-Dojo. See his [blog post](https://codingdojo.org/kata/FizzBuzz/).
 
--------------------
+
 ### 🏁 How to Install
 > git clone https://github.com/itacademyReact/FizzBuzzGenerator.git
 >
 > In the project directory, you can run:
 >
 > npm install
---------------------
+
 
 ### ✅ Usage
 
@@ -18,7 +18,7 @@ This is a kata to practice classic TDD, BabySteps and Problem Description and is
 > npm run test
 >
 > see test passed
---------------------
+
 
 ### 🥋 FizzBuzz Kata
 The Fizz Buzz generator is a simple program, it’s method say generate accepts the numeric input and produces the output string based on the rules and input number.
@@ -30,7 +30,7 @@ The generate method returns the string
 - Fizz when input parameter is divisible by 3.
 - Buzz when input parameter is divisible by 5.
 - String representation of given number when input parameter neither divisible by 3 or 5.
----------------------------
+
 ### 🔍 Exercise analysis
 
 It is clear that there are four use cases to implement
@@ -43,7 +43,7 @@ It is clear that there are four use cases to implement
 
 **Number (converted to string)** As a fizz buzz generator, I should be able to generate a string format of input number for a given input number **when number is neither divisible by 3 or 5**.
 
--------------------------------------
+
 
 ### 🚦 Introduce the concepts of TDD and BabySteps
 
@@ -67,5 +67,5 @@ It is clear that there are four use cases to implement
 #### Naming tests
 - Tests should have names that describe a business feature or behavior
 
---------------
+
 
